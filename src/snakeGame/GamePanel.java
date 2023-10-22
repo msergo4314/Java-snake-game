@@ -180,7 +180,7 @@ public class GamePanel extends JPanel implements ActionListener{
 		g.drawString("YOU DIED", (int)(LENGTH - metrics1.stringWidth("YOU DIED"))/2, (int)(WIDTH/2 - 130));
 
 		g.setColor(new Color(100, 100, 100));
-		g.setFont(new Font("Adobe Garamond", Font.PLAIN, 25));
+		g.setFont(new Font("OptimusPrincepsSemiBold", Font.PLAIN, 25));
 		FontMetrics metrics2 = getFontMetrics(g.getFont());
 		g.drawString("Score Count: "+ foodEaten, (int)(LENGTH - metrics2.stringWidth("Score Count: "+foodEaten))/2,(int) (WIDTH/2 - 120 + g.getFont().getSize()));
 		
